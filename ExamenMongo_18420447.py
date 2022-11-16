@@ -14,9 +14,6 @@ varmongo["timeout"] = 1000
 varmongo["user"] = ""
 varmongo["password"] = "root"
 
-#Clase Mongo
-
-
 def consulta_materias_estudiante(ctrl):
     obj = PyMongo(varmongo)
     filtro = {'control': ctrl}
